@@ -20,5 +20,6 @@ def contact_page(request):
     context = {
         "title": "Página de contato",
         "content": "Bem-vindo a página de contato"
+    }
     return render(request, "contact/view.html", context)
 
