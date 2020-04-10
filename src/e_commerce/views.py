@@ -20,10 +20,5 @@ def contact_page(request):
     context = {
         "title": "Página de contato",
         "content": "Bem-vindo a página de contato"
-<<<<<<< HEAD
-    git}
-=======
-    }
->>>>>>> create_pages
     return render(request, "contact/view.html", context)
 
