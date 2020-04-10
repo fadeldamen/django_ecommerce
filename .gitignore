@@ -1,0 +1,5 @@
+
+src/*.sqlite3
+src/__pycache__/
+*.py[cod]
+*$py.class
